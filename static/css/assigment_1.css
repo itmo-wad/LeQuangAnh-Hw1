@@ -1,0 +1,58 @@
+.background{
+    /*background-image: linear-gradient(180deg, transparent, #9E7A67);*/
+    background-image: url("/static/image/background_1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-family: Copperplate, fantasy;
+    /* background-attachment: fixed; */
+}
+.navbar p1{
+    overflow: hidden;
+    color : whitesmoke;
+    text-align: center;
+    font: optional;
+    font-size: 45px;
+    text-align: left;
+    margin: 0%;
+    position: absolute;
+    padding-top: 40px;
+    
+}
+.navbar p2{
+    overflow: hidden;
+    color : black;
+    text-align: center;
+    font: optional;
+    font-size: 25px;
+    text-align: left;
+    margin: 0%;
+    position: relative;
+}
+.navbar img {
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 10%;
+}
+.main-content{
+    width: 450px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 35px;
+    margin: 20px;
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    left: 10%;
+}
+.main-content p{
+    color : black;
+    font: optional;
+    font-size: 18px;
+    text-align: left;
+    margin: 0%;
+    position: relative;
+}
